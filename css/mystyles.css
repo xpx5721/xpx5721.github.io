@@ -1,0 +1,48 @@
+.conan{
+    background-color: blue;
+}
+
+a.link{
+    color: rgb(180, 123, 208);
+    padding:0px 15px;
+    margin:0px 0px 0px 5px;
+    border-radius:20px;
+}
+
+a.link:hover{
+    background-color:    rgb(180, 123, 208);
+    color: rgb(255, 255, 255);
+}
+
+div.xpxdivgrey{
+    background-color: rgb(239, 218, 255);
+    padding: 20px;
+    border:2px solid  rgb(180, 123, 208);
+    border-radius: 5px;
+}
+
+.xpxsmallh4{
+    font-size: 20px;
+    color:rgb(9, 55, 67);
+}
+
+span.xpxname{
+    color: rgb(180, 123, 208);
+}
+
+nav.leftcolor{
+    background-color: rgb(180, 123, 208); 
+}
+
+.xpxcrop{
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+.background1{
+    background-image: url(../assets/photo/background1.png);
+    height: 100%;
+}
