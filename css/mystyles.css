@@ -3,21 +3,33 @@
 }
 
 a.link{
-    color: rgb(180, 123, 208);
-    padding:0px 15px;
+    color: #126186;
+    padding:0px 10px;
+    margin:0px 0px 0px 2px;
+    border-radius:10px;
+}
+
+a.link:hover{
+    background-color:    #126186;
+    color: #f4f4f4;
+}
+
+a.link2{
+    color: #126186;
+    padding:0px 10px;
     margin:0px 0px 0px 5px;
     border-radius:20px;
 }
 
-a.link:hover{
-    background-color:    rgb(180, 123, 208);
-    color: rgb(255, 255, 255);
+a.link2:hover{
+    background-color:   #126186;
+    color:  rgb(255, 255, 255);
 }
 
 div.xpxdivgrey{
-    background-color: rgb(239, 218, 255);
+    background-color: #c1e3ffab;
     padding: 20px;
-    border:2px solid  rgb(180, 123, 208);
+    border:2px solid  #126186;
     border-radius: 5px;
 }
 
@@ -26,18 +38,25 @@ div.xpxdivgrey{
     color:rgb(9, 55, 67);
 }
 
-span.xpxname{
-  color:rgb(180, 123, 208);
-  text-shadow: 3px 2px 0 #efe4d1;
-  -webkit-text-stroke:#efe4d1;
+span.en-name{
+    color: #126186;
+    text-shadow: 3px 2px 0 #ffffff;
+    -webkit-text-stroke:#ffffff;
+    font-size: 90px;
+}
+
+.ch-name{
+    color: #126186;
+    text-shadow: 3px 2px 0 #ffffff;
+    -webkit-text-stroke:#ffffff !important;
 }
 
 nav.leftcolor{
-    background-color: rgb(180, 123, 208); 
+    background-color: #96c3e7; 
 }
 
 .xpxcrop{
-    height: 250px;
+    height: 400px;
     overflow: hidden;
     object-fit: cover;
     margin: 10px 50px;
@@ -58,10 +77,45 @@ nav.leftcolor{
     background-position: center;
 }
 
-.white{
-    color: white;
+.color{
+    color: rgb(12, 2, 49) !important;
 }
 
 .xpxserif{
   font-family: "Noto Serif TC", serif;
+}
+
+.name{
+    padding: 10px;
+}
+
+ol{
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.square{
+    font-weight: 600;
+    padding: 5px;
+    text-align: left;
+}
+
+.bg{
+    background-image: url(../assets/photo/background3.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.size{
+    font-size: 20px !important;
+}
+
+.science{
+    
 }

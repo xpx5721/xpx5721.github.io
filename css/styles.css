@@ -8128,7 +8128,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color:  rgb(180, 123, 208);
+  background-color: #96c3e7;
 }
 
 .bg-secondary {
@@ -10937,7 +10937,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color:  rgb(180, 123, 208);
+  background-color:  #82AEB1;
 }
 
 .dev-icons {
