@@ -27,7 +27,9 @@ div.xpxdivgrey{
 }
 
 span.xpxname{
-    color: rgb(180, 123, 208);
+  color:rgb(180, 123, 208);
+  text-shadow: 3px 2px 0 #efe4d1;
+  -webkit-text-stroke:#efe4d1;
 }
 
 nav.leftcolor{
@@ -45,4 +47,21 @@ nav.leftcolor{
 .background1{
     background-image: url(../assets/photo/background1.png);
     height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background2{
+    background-image: url(../assets/photo/background2.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.white{
+    color: white;
+}
+
+.xpxserif{
+  font-family: "Noto Serif TC", serif;
 }
