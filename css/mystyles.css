@@ -28,9 +28,12 @@ a.link2:hover{
 
 div.xpxdivgrey{
     background-color: #c1e3ffab;
-    padding: 20px;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
     border:2px solid  #126186;
     border-radius: 5px;
+    width: 940px;
 }
 
 .xpxsmallh4{
@@ -89,7 +92,7 @@ nav.leftcolor{
     padding: 10px;
 }
 
-ol{
+.xpxol{
     color: rgb(34, 34, 34);
     font-size: 18px;
     font-weight: 400;
@@ -116,6 +119,13 @@ ol{
     font-size: 20px !important;
 }
 
-.science{
-    
+.photo{
+    padding: 5px;
+    width: 400px;
+}
+
+.xpxtime{
+    color: #126186 !important;
+    font-weight: 700;
+    font-size: 18px;
 }
