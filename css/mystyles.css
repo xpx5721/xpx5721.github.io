@@ -33,7 +33,7 @@ div.xpxdivgrey{
     box-sizing: border-box;
     border:2px solid  #126186;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
 }
 
 .xpxsmallh4{
@@ -59,8 +59,7 @@ nav.leftcolor{
 }
 
 .xpxcrop{
-    width: 350px;
-    height: 200px;
+    width: 90%;
     overflow: hidden;
     object-fit: cover;
     margin: 10px;
