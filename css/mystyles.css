@@ -176,3 +176,10 @@ th,td{
 .xpxback{
     padding: 20px;
 }
+
+.list-group-item.active{
+    z-index: 2;
+    color: var(--bs-list-group-active-color);
+    background-color: #126186;
+    border-color: #126186;
+}
